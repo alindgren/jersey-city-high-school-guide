@@ -241,6 +241,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .disclaimer { max-width: 1184px; margin: 72px auto 95px; padding: 32px; display: grid; grid-template-columns: 180px 1fr; gap: 35px; border: 1px solid #d4b7a7; background: #f6e6dc; border-radius: 9px; }
 .disclaimer h2 { margin: 0; font-size: 27px; }
 .disclaimer p { margin: 0; color: #674f46; line-height: 1.7; }
+.disclaimer .ai-note { margin-top: 14px; padding-top: 14px; border-top: 1px solid #d4b7a7; }
 
 .school-page { --school-accent: var(--teal); }
 .school-page.accent-orange { --school-accent: var(--orange); }
@@ -312,6 +313,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .footer-links { display: flex; flex-direction: column; gap: 8px; color: var(--ink); font-weight: 680; }
 .footer-links a:hover { color: var(--orange); }
 .footer-date { padding-left: 24px; border-left: 1px solid var(--line); }
+.ai-disclosure { grid-column: 1 / -1; margin-bottom: 0; padding-top: 18px; border-top: 1px solid var(--line); }
+.ai-disclosure strong { color: var(--ink); }
 
 @media (max-width: 1220px) {
   .visual-strip, .decision-section, .coming-section, .page-hero, .matrix-section, .timeline-row,

@@ -14,6 +14,7 @@ export function SiteFooter() {
         <Link href="/sources">Sources</Link>
       </div>
       <p className="footer-date">Admissions facts last verified {VERIFIED_DATE}. Always confirm deadlines with the school before applying.</p>
+      <p className="ai-disclosure"><strong>AI disclosure:</strong> This site was researched, written, and built with assistance from AI. Information was checked against the linked primary sources, but errors are possible.</p>
     </footer>
   );
 }

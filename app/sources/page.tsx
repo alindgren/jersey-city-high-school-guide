@@ -42,7 +42,10 @@ export default function SourcesPage() {
 
       <section className="disclaimer">
         <h2>Important</h2>
-        <p>This is an independent family guide, not an official admissions publication. Schools can change dates, criteria, offerings, tuition, or policies after verification. Always use the linked official source and contact the school before making a time-sensitive decision.</p>
+        <div>
+          <p>This is an independent family guide, not an official admissions publication. Schools can change dates, criteria, offerings, tuition, or policies after verification. Always use the linked official source and contact the school before making a time-sensitive decision.</p>
+          <p className="ai-note"><strong>AI disclosure:</strong> This site was researched, written, and built with assistance from AI. Its information was checked against the linked primary sources, but errors are possible.</p>
+        </div>
       </section>
     </main>
   );
