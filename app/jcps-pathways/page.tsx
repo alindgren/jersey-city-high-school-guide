@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { FullPageLink as Link } from '@/components/full-page-link';
 import { ArrowRight, ArrowUpRight, CheckCircle2, CircleAlert, MapPin } from 'lucide-react';
 import { districtwidePathways, getSources, jcpsPathways, VERIFIED_DATE } from '@/lib/content';
 

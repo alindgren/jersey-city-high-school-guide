@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { FullPageLink as Link } from '@/components/full-page-link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { schools, VERIFIED_DATE } from '@/lib/content';
 

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { FullPageLink as Link } from '@/components/full-page-link';
 import {
   ArrowRight,
   Building2,

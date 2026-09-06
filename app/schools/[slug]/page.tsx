@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import { FullPageLink as Link } from '@/components/full-page-link';
 import { notFound } from 'next/navigation';
 import {
   ArrowLeft,
