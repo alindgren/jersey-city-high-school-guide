@@ -7,7 +7,7 @@ const siteDescription =
   'A source-linked guide to selective high school options for Jersey City families applying for fall 2027.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jersey-city-high-school-guide.jocund-wolf-4960.chatgpt.site'),
+  metadataBase: new URL('https://jersey-city-high-school-guide.alexlindgren.chatgpt.site'),
   title: {
     default: 'Jersey City High School Guide',
     template: '%s · Jersey City High School Guide',
