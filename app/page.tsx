@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import {
   ArrowRight,
+  Building2,
   CalendarDays,
   CheckCircle2,
-  CircleDollarSign,
+  Church,
   GraduationCap,
   MapPin,
   Scale,
 } from 'lucide-react';
-import { schools, timeline, upcomingSchools, VERIFIED_DATE } from '@/lib/content';
+import { schools, timeline, VERIFIED_DATE } from '@/lib/content';
 
 export default function Home() {
   return (
@@ -20,12 +21,12 @@ export default function Home() {
             <p className="kicker">For Jersey City families</p>
             <h1>Find the high school that fits the student.</h1>
             <p className="hero-copy">
-              A practical, source-linked guide to selective public magnets, county
-              technical schools, and a leading private option—built for families
+              A practical, source-linked guide to Jersey City public, charter,
+              county technical, and Catholic high schools—built for families
               applying for fall 2027.
             </p>
             <div className="hero-actions">
-              <Link className="primary-action" href="/compare">Compare all five <ArrowRight /></Link>
+              <Link className="primary-action" href="/compare">Compare all 11 <ArrowRight /></Link>
               <Link className="text-action" href="/timeline">See the 8th-grade timeline</Link>
             </div>
           </div>
@@ -41,24 +42,24 @@ export default function Home() {
       <section className="visual-strip" aria-label="About this guide">
         <div className="visual-copy">
           <p className="kicker">A clearer way through</p>
-          <h2>Five schools. One decision that starts with fit.</h2>
+          <h2>Eleven profiles. One decision that starts with fit.</h2>
           <p>Academic breadth, small-school support, career depth, commute, culture, and cost all matter.</p>
         </div>
-        <img src="/og.png" alt="Illustrated Jersey City waterfront and map for the high school guide" />
+        <img src="/og-eleven.png" alt="Illustrated Jersey City waterfront and map for the high school guide" />
       </section>
 
       <section className="section-shell" id="schools">
         <div className="section-heading">
           <div>
-            <p className="kicker">Five distinct choices</p>
+            <p className="kicker">Eleven school profiles</p>
             <h2>Start with the kind of experience your child wants.</h2>
           </div>
-          <p>These schools are better compared by fit than by a single ranking.</p>
+          <p>Compare school model, admissions route, daily experience, mission, cost, and program fit—not a single ranking.</p>
         </div>
         <div className="school-grid">
           {schools.map((school, index) => (
             <Link className="school-card" href={`/schools/${school.slug}`} key={school.slug}>
-              <span className="school-number">0{index + 1}</span>
+              <span className="school-number">{String(index + 1).padStart(2, '0')}</span>
               <p>{school.type}</p>
               <h3>{school.shortName}</h3>
               <strong>{school.facts[2].value}</strong>
@@ -76,10 +77,11 @@ export default function Home() {
           <Link className="text-action" href="/compare">Open the full comparison</Link>
         </div>
         <div className="decision-list">
-          <article><GraduationCap /><div><span>Broad academic depth</span><strong>Start with McNair</strong></div></article>
-          <article><Scale /><div><span>Small academic community</span><strong>Look closely at Infinity</strong></div></article>
-          <article><MapPin /><div><span>Deep specialty or career major</span><strong>Compare High Tech + County Prep</strong></div></article>
-          <article><CircleDollarSign /><div><span>All-girls, small, private</span><strong>Visit Saint Dominic</strong></div></article>
+          <article><GraduationCap /><div><span>Selective academic depth</span><strong>McNair + Infinity</strong></div></article>
+          <article><Scale /><div><span>Small JCPS environment</span><strong>Innovation + Liberty</strong></div></article>
+          <article><MapPin /><div><span>Career or academy pathway</span><strong>HCST + JCPS pathways</strong></div></article>
+          <article><Building2 /><div><span>Public charter setting</span><strong>University Academy + BelovED</strong></div></article>
+          <article><Church /><div><span>Catholic education</span><strong>Compare all three missions</strong></div></article>
         </div>
       </section>
 
@@ -115,13 +117,14 @@ export default function Home() {
       </section>
 
       <section className="coming-section">
-        <p className="kicker">Built to grow</p>
-        <h2>More schools are next.</h2>
+        <p className="kicker">Defined coverage</p>
+        <h2>The guide now follows three local routes.</h2>
         <div className="coming-grid">
-          {upcomingSchools.map((school) => (
-            <article key={school.name}><span>Planned profile</span><h3>{school.name}</h3><p>{school.note}</p></article>
-          ))}
+          <article><span>Public systems</span><h3>JCPS + HCST</h3><p>Selective magnets, small schools, county CTE programs, and a dedicated guide to the district’s academies.</p></article>
+          <article><span>Public charters</span><h3>Two local choices</h3><p>University Academy and BelovED add tuition-free lottery and open-enrollment paths.</p></article>
+          <article><span>Private scope</span><h3>Catholic schools only</h3><p>Saint Dominic, Hudson Catholic, and Saint Peter’s Prep—each with distinct community, cost, and mission considerations.</p></article>
         </div>
+        <p className="coverage-note">Hoboken schools and non-Catholic private schools are outside this edition’s scope.</p>
       </section>
     </main>
   );

@@ -1,13 +1,16 @@
 # Jersey City High School Guide
 
-An independent, parent-focused guide to selective high school options for Jersey City families applying for fall 2027.
+An independent, parent-focused guide to Jersey City public, charter, county technical, and Catholic high school options for families applying for fall 2027.
 
 ## What is included
 
-- Detailed profiles for McNair Academic, Infinity Institute, High Tech High School, County Prep, and Saint Dominic Academy
+- Eleven detailed profiles spanning selective public schools, small JCPS schools, county technical schools, public charters, and Catholic schools
+- A dedicated JCPS academies and pathways guide
 - A side-by-side comparison
 - A dated eighth-grade admissions timeline
 - A primary-source library and visible verification dates
+
+This edition intentionally excludes Hoboken schools and non-Catholic private schools.
 
 ## Updating the guide
 

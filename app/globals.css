@@ -100,7 +100,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .section-heading.compact { align-items: end; }
 .section-heading h2 { max-width: 700px; margin: 0; font-size: clamp(36px, 4.5vw, 58px); line-height: 1.02; letter-spacing: -.04em; }
 .section-heading > p { color: var(--muted-ink); line-height: 1.6; max-width: 360px; }
-.school-grid { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.school-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .school-card {
   min-height: 280px; padding: 22px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
   display: flex; flex-direction: column; transition: background .2s, transform .2s;
@@ -159,6 +159,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .coming-grid span { color: var(--orange); text-transform: uppercase; font-size: 10px; font-weight: 820; letter-spacing: .11em; }
 .coming-grid h3 { font-size: 29px; margin: 32px 0 9px; }
 .coming-grid p { color: var(--muted-ink); font-size: 14px; margin: 0; }
+.coverage-note { margin: 22px 0 0; color: var(--muted-ink); font-size: 13px; }
 
 .page-main { min-height: 70vh; }
 .page-hero { max-width: 1184px; margin: auto; padding: 90px 0 76px; }
@@ -179,6 +180,14 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .comparison-table td:nth-child(6), .comparison-table td:nth-child(7) { min-width: 270px; }
 .table-note { color: var(--muted-ink); font-size: 12px; margin: 13px 0 0; }
 .matrix-section { max-width: 1184px; margin: auto; padding: 88px 0 100px; }
+.route-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.route-grid > a { min-height: 260px; padding: 25px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--paper); transition: background .2s ease, transform .2s ease; }
+.route-grid > a:hover { background: #f4ecde; transform: translateY(-3px); }
+.route-grid > a > span { color: var(--teal); font-size: 10px; font-weight: 820; letter-spacing: .08em; text-transform: uppercase; }
+.route-grid h3 { margin: 30px 0 12px; font-size: 28px; line-height: 1.08; }
+.route-grid p { margin: 0; color: var(--muted-ink); font-size: 13px; line-height: 1.6; }
+.route-grid strong { margin-top: auto; padding-top: 24px; display: flex; align-items: center; gap: 8px; color: var(--orange); font-size: 12px; }
+.route-grid strong svg { width: 16px; }
 .fit-matrix { position: relative; height: 540px; margin-top: 70px; border-left: 2px solid var(--ink); border-bottom: 2px solid var(--ink); background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 25% 25%; }
 .axis-label { position: absolute; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; font-weight: 820; }
 .axis-top { right: 0; bottom: -38px; }
@@ -242,6 +251,45 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .disclaimer h2 { margin: 0; font-size: 27px; }
 .disclaimer p { margin: 0; color: #674f46; line-height: 1.7; }
 .disclaimer .ai-note { margin-top: 14px; padding-top: 14px; border-top: 1px solid #d4b7a7; }
+
+.pathway-hero { padding-bottom: 62px; }
+.hip-process { max-width: 1184px; margin: 0 auto 88px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.hip-process article { min-height: 250px; padding: 28px; background: var(--paper); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.hip-process article > span { color: var(--orange); font-family: Georgia, serif; font-style: italic; }
+.hip-process h2 { margin: 35px 0 12px; font-size: 28px; line-height: 1.08; }
+.hip-process p { margin: 0; color: var(--muted-ink); line-height: 1.65; }
+.pathways-section { background: var(--paper); padding: 82px max(28px, calc((100vw - 1184px)/2)); border-block: 1px solid var(--line); }
+.academy-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.academy-grid > article { padding: 30px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.academy-heading { display: grid; grid-template-columns: 42px 1fr; gap: 16px; align-items: start; }
+.academy-heading > span { color: var(--orange); font-family: Georgia, serif; font-style: italic; }
+.academy-heading h2 { margin: 0; font-size: 29px; line-height: 1.08; }
+.academy-heading p { margin: 7px 0 0; color: var(--teal); font-size: 11px; font-weight: 820; letter-spacing: .08em; text-transform: uppercase; }
+.academy-location { display: flex; align-items: center; gap: 7px; margin: 25px 0 0; color: var(--muted-ink); font-size: 12px; }
+.academy-location svg { width: 16px; }
+.academy-fit { margin: 18px 0; line-height: 1.65; }
+.pathway-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.pathway-tags span { padding: 6px 8px; border-radius: 4px; background: #e2efeb; color: var(--teal); font-size: 10px; font-weight: 740; }
+.districtwide-section { max-width: 1184px; margin: auto; padding: 90px 0; display: grid; grid-template-columns: .72fr 1.28fr; gap: 90px; }
+.districtwide-section h2 { margin: 0; font-size: clamp(38px, 4vw, 54px); line-height: 1.02; letter-spacing: -.04em; }
+.districtwide-section > div:first-child > p:last-child { color: var(--muted-ink); line-height: 1.65; }
+.districtwide-list { border-top: 1px solid var(--line); }
+.districtwide-list article { padding: 24px 0; border-bottom: 1px solid var(--line); }
+.districtwide-list h3 { margin: 0 0 8px; font-size: 25px; }
+.districtwide-list p { margin: 0; color: var(--muted-ink); line-height: 1.6; }
+.small-school-band { max-width: 1184px; margin: 0 auto 82px; padding: 45px; display: grid; grid-template-columns: .72fr 1.28fr; gap: 70px; background: var(--ink); color: white; border-radius: 10px; box-shadow: 12px 12px 0 var(--gold); }
+.small-school-band h2 { margin: 0; font-size: 42px; line-height: 1.05; }
+.small-school-links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.small-school-links a { min-height: 150px; padding: 22px; display: flex; flex-direction: column; background: white; color: var(--ink); border-radius: 7px; font-family: Georgia, serif; font-size: 24px; }
+.small-school-links a > span { margin-bottom: 25px; color: var(--teal); font-family: Inter, sans-serif; font-size: 10px; font-weight: 820; letter-spacing: .07em; text-transform: uppercase; }
+.small-school-links svg { width: 18px; margin-top: auto; color: var(--orange); }
+.pathway-status { max-width: 1184px; margin: 0 auto 80px; padding: 28px 31px; display: grid; grid-template-columns: 32px 1fr auto; gap: 25px; align-items: center; background: #f3e6d4; border-left: 5px solid var(--orange); }
+.pathway-status > svg { color: var(--orange); }
+.pathway-status h2 { margin: 0 0 7px; font-size: 25px; }
+.pathway-status p { margin: 0; color: var(--muted-ink); line-height: 1.6; }
+.pathway-status a { display: flex; align-items: center; gap: 8px; color: var(--orange); font-size: 12px; font-weight: 780; }
+.pathway-status a svg { width: 16px; }
+.pathway-sources { padding-top: 10px; }
 
 .school-page { --school-accent: var(--teal); }
 .school-page.accent-orange { --school-accent: var(--orange); }
@@ -318,15 +366,17 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 
 @media (max-width: 1220px) {
   .visual-strip, .decision-section, .coming-section, .page-hero, .matrix-section, .timeline-row,
-  .callout-panel, .method-cards, .disclaimer, .school-hero, .admissions-panel, .profile-sources, .site-footer {
+  .callout-panel, .method-cards, .disclaimer, .school-hero, .admissions-panel, .profile-sources, .site-footer,
+  .hip-process, .districtwide-section, .small-school-band, .pathway-status {
     margin-left: 28px; margin-right: 28px;
   }
-  .decision-section, .coming-section, .page-hero, .matrix-section, .school-hero, .profile-sources, .site-footer { max-width: none; }
+  .decision-section, .coming-section, .page-hero, .matrix-section, .school-hero, .profile-sources, .site-footer,
+  .hip-process, .districtwide-section, .small-school-band, .pathway-status { max-width: none; }
 }
 
 @media (max-width: 920px) {
   .hero-grid, .section-heading, .decision-section, .method-section, .questions-band,
-  .callout-panel, .school-hero-grid, .profile-grid, .profile-sources { grid-template-columns: 1fr; }
+  .callout-panel, .school-hero-grid, .profile-grid, .profile-sources, .districtwide-section, .small-school-band { grid-template-columns: 1fr; }
   .hero-grid { gap: 48px; }
   .visual-strip { grid-template-columns: 1fr; }
   .visual-strip img { min-height: 0; aspect-ratio: 1200 / 630; }
@@ -336,6 +386,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
   .preview-steps { grid-template-columns: repeat(2, 1fr); }
   .method-section, .questions-band, .callout-panel, .profile-grid, .profile-sources { gap: 45px; }
   .coming-grid, .method-cards { grid-template-columns: 1fr; }
+  .route-grid, .academy-grid { grid-template-columns: repeat(2, 1fr); }
+  .small-school-band, .districtwide-section { gap: 45px; }
   .timeline-row { grid-template-columns: 55px 190px 1fr; }
   .admissions-panel { grid-template-columns: 190px 1fr; }
   .admissions-panel > a { grid-column: 2; justify-content: flex-start; text-align: left; }
@@ -353,14 +405,15 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
   .hero-shell h1, .page-hero h1, .school-hero h1 { font-size: 49px; }
   .hero-copy, .page-hero > p:not(.kicker), .school-summary { font-size: 16px; }
   .visual-strip, .decision-section, .coming-section, .page-hero, .matrix-section, .timeline-row,
-  .callout-panel, .method-cards, .disclaimer, .school-hero, .admissions-panel, .profile-sources, .site-footer {
+  .callout-panel, .method-cards, .disclaimer, .school-hero, .admissions-panel, .profile-sources, .site-footer,
+  .hip-process, .districtwide-section, .small-school-band, .pathway-status {
     margin-left: 18px; margin-right: 18px;
   }
   .visual-copy { padding: 30px 24px; }
   .section-shell, .timeline-preview, .method-section, .questions-band, .profile-grid, .sources-section, .next-school {
     padding-left: 18px; padding-right: 18px;
   }
-  .school-grid, .preview-steps, .stat-row, .program-grid { grid-template-columns: 1fr; }
+  .school-grid, .preview-steps, .stat-row, .program-grid, .route-grid, .academy-grid, .hip-process, .small-school-links { grid-template-columns: 1fr; }
   .school-card { min-height: 220px; }
   .decision-section, .coming-section { padding-top: 65px; padding-bottom: 70px; }
   .decision-list div { display: block; }
@@ -389,6 +442,12 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
   .profile-sources a > span { grid-column: 1 / -1; }
   .next-school { display: block; }
   .next-school a { margin-top: 15px; }
+  .pathways-section { padding-left: 18px; padding-right: 18px; }
+  .hip-process article { min-height: 0; }
+  .academy-heading { grid-template-columns: 32px 1fr; }
+  .small-school-band { padding: 28px; }
+  .pathway-status { grid-template-columns: 28px 1fr; }
+  .pathway-status a { grid-column: 2; }
   .site-footer { grid-template-columns: 1fr; padding-top: 42px; }
   .footer-date { grid-column: auto; }
 }
