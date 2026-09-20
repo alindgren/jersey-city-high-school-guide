@@ -5,9 +5,12 @@ import './globals.css';
 
 const siteDescription =
   'A source-linked guide to Jersey City public, charter, county technical, and Catholic high school options for families applying for fall 2027.';
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  'https://jersey-city-high-school-guide.alexlindgren.workers.dev';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jersey-city-high-school-guide.alexlindgren.chatgpt.site'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'Jersey City High School Guide',
     template: '%s · Jersey City High School Guide',
