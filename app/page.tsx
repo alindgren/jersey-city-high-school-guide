@@ -34,7 +34,7 @@ export default function Home() {
             <span className="now-label"><CalendarDays /> September priority</span>
             <h2>Get ready before applications open.</h2>
             <p>Confirm PSAT 8/9 plans with your school, attend fall open houses, and shortlist HCST majors.</p>
-            <p className="pending-note">HCST’s 2027–28 dates are expected at the end of September.</p>
+            <p className="pending-note">HCST’s 2027–28 application opens October 5 and is due November 13.</p>
           </aside>
         </div>
       </section>
