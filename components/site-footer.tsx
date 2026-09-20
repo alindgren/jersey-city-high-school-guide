@@ -10,6 +10,7 @@ export function SiteFooter() {
       </div>
       <div className="footer-links">
         <Link href="/compare">Compare schools</Link>
+        <Link href="/open-houses">Open houses</Link>
         <Link href="/timeline">Admissions timeline</Link>
         <Link href="/sources">Sources</Link>
       </div>

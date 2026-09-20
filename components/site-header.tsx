@@ -11,6 +11,7 @@ export function SiteHeader() {
         <Link href="/#schools">Schools</Link>
         <Link href="/jcps-pathways">JCPS paths</Link>
         <Link href="/compare">Compare</Link>
+        <Link href="/open-houses">Open houses</Link>
         <Link href="/timeline">Timeline</Link>
         <Link href="/sources">Sources</Link>
       </nav>

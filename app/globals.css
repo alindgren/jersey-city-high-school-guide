@@ -232,6 +232,14 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 .callout-panel > div:last-child > p { color: #d8ece8; margin: 0; line-height: 1.7; }
 .callout-panel .primary-action { margin-top: 20px; background: white; color: var(--ink); }
 
+.open-house-time { display: block; margin: 4px 0 14px; color: var(--muted-ink); font-size: 12px; font-weight: 600; }
+.open-house-links { display: flex; flex-wrap: wrap; gap: 22px; }
+.pending-section { max-width: 1184px; margin: 0 auto 88px; padding: 40px 0 0; border-top: 1px solid var(--line); }
+.pending-section h2 { font-size: 26px; margin: 6px 0 10px; letter-spacing: -.02em; }
+.pending-section > p { color: var(--muted-ink); line-height: 1.65; max-width: 720px; margin: 0 0 22px; }
+.pending-chips { display: flex; flex-wrap: wrap; gap: 9px; }
+.pending-chips span { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 600; }
+
 .method-cards { max-width: 1184px; margin: 0 auto 88px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .method-cards article { background: var(--paper); border: 1px solid var(--line); padding: 30px; border-radius: 9px; }
 .method-cards article > span { font-family: Georgia, serif; font-style: italic; color: var(--orange); }

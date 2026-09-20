@@ -849,6 +849,68 @@ export const timeline: TimelineItem[] = [
   },
 ];
 
+export type OpenHouse = {
+  slug?: string;
+  school: string;
+  date: string;
+  time: string;
+  location: string;
+  status: 'Confirmed' | 'Expected';
+  note: string;
+  sourceId: string;
+};
+
+// Only open houses confirmed against a current primary source belong here. Do
+// not add a prior-cycle open house as if it were a current date.
+export const openHouses: OpenHouse[] = [
+  {
+    slug: 'county-prep',
+    school: 'County Prep High School',
+    date: 'September 22, 24 & October 1, 2026',
+    time: '5:00 p.m.',
+    location: '525 Montgomery Street, Jersey City',
+    status: 'Confirmed',
+    note: 'Three evening sessions. Compare CTE majors before the HCST application opens October 5.',
+    sourceId: 'hcst-admissions',
+  },
+  {
+    slug: 'saint-dominic-academy',
+    school: 'Saint Dominic Academy',
+    date: 'Sunday, September 27, 2026',
+    time: '11:00 a.m.–1:00 p.m.',
+    location: '2572 John F. Kennedy Boulevard, Jersey City',
+    status: 'Confirmed',
+    note: 'Ask for the class-of-2031 HSPT, application, scholarship, and financial-aid calendar.',
+    sourceId: 'sda-home',
+  },
+  {
+    slug: 'high-tech-high',
+    school: 'High Tech High School',
+    date: 'September 29 & 30, 2026',
+    time: '5:30 p.m.',
+    location: '1 High Tech Way, Secaucus',
+    status: 'Confirmed',
+    note: 'Two evening sessions. A realistic trial of the Secaucus commute is worth doing on the same trip.',
+    sourceId: 'hcst-admissions',
+  },
+  {
+    slug: 'saint-peters-prep',
+    school: 'Saint Peter’s Preparatory School',
+    date: 'Sunday, October 18, 2026',
+    time: '1:00–4:00 p.m.',
+    location: '144 Grand Street, Jersey City',
+    status: 'Confirmed',
+    note: 'Freshman for a Day shadow visits also run separately, beginning September 21, before the November 6 HSPT.',
+    sourceId: 'spprep-dates',
+  },
+];
+
+// Schools in this guide with no open house currently published in a primary
+// source. Listed so families do not assume there is nothing to attend.
+export const schoolsWithoutPublishedOpenHouse = schools
+  .filter((school) => !openHouses.some((openHouse) => openHouse.slug === school.slug))
+  .map((school) => school.shortName);
+
 export function getSchool(slug: string) {
   return schools.find((school) => school.slug === slug);
 }
