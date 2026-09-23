@@ -144,7 +144,7 @@ export const sources: Source[] = [
     title: 'How to apply',
     publisher: 'Saint Dominic Academy',
     url: 'https://saintdoms.org/admissions/how-to-apply/',
-    reviewed: VERIFIED_DATE,
+    reviewed: 'September 23, 2026',
     note: 'Application steps, documents, and most recently published entrance-exam guidance.',
   },
   {
@@ -184,8 +184,16 @@ export const sources: Source[] = [
     title: 'Class of 2031 admissions dates',
     publisher: 'Saint Peter’s Prep',
     url: 'https://spprep.org/admissions/important-dates/',
-    reviewed: VERIFIED_DATE,
+    reviewed: 'September 23, 2026',
     note: 'Confirmed application, visit, open-house, HSPT, financial-aid, completion, and decision dates.',
+  },
+  {
+    id: 'coop-hspt',
+    title: '2026–2027 Cooperative Admissions HSPT important dates',
+    publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
+    url: 'https://www.njcoopexam.org/docs/115-2026-IMPORTANT-DATES.pdf',
+    reviewed: 'September 23, 2026',
+    note: 'Official November 6, 2026 HSPT date, November 14 makeup, and October registration deadlines for current eighth graders applying to participating Catholic high schools.',
   },
   {
     id: 'spprep-tuition',
@@ -568,6 +576,7 @@ export const schools: School[] = [
       'The school’s current application page calls for an application account, transcript, recommendation letter, and an entrance/placement exam for eighth-grade applicants in its latest published cycle.',
       'The detailed school profile describes admission based on the formal application, recommendations, prior school records and standardized scores, including HSPT for high school.',
       'Attend the September 27 open house or schedule a tour to test the all-girls, small-school, and faith-centered fit.',
+      'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026, and registration closes October 23. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
       'Ask admissions to confirm the class-of-2031 testing, scholarship, financial-aid, and response deadlines before acting.',
     ],
     academics: [
@@ -582,7 +591,7 @@ export const schools: School[] = [
       { label: 'School model', value: 'Girls · grades 7–12' },
       { label: 'Defining strength', value: 'Small, supportive setting' },
     ],
-    sourceIds: ['sda-home', 'sda-apply', 'sda-tuition'],
+    sourceIds: ['sda-home', 'sda-apply', 'sda-tuition', 'coop-hspt'],
   },
   {
     slug: 'hudson-catholic',
@@ -597,13 +606,13 @@ export const schools: School[] = [
     accent: 'teal',
     summary: 'A coeducational Catholic high school with college preparation, faith formation, athletics, arts, and an applied course menu that includes health, law, coding, and business.',
     bestFor: 'Students who want a coed Catholic community, a broad mix of academics and activities, and a Jersey City campus with a lower published tuition than the other private options in this guide.',
-    tradeoff: 'Tuition and required fees remain substantial, and Hudson Catholic’s current HSPT page contains a cycle-label inconsistency that families should confirm directly.',
-    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT, but labels it for 2026–27; confirm that date and every class-of-2031 deadline with admissions.',
+    tradeoff: 'Tuition and required fees remain substantial, and families should confirm Hudson Catholic’s Class of 2031 test and application deadlines directly with admissions.',
+    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT labeled 2026–27, the same label the Archdiocese uses for this fall’s test. HSPT registration closes October 23; confirm every class-of-2031 deadline with admissions.',
     admissions: [
       'Applicants complete the school application and submit sixth-, seventh-, and current eighth-grade report cards plus two teacher recommendations.',
       'Hudson Catholic requires incoming freshmen to take the Archdiocese of Newark HSPT and says the test is also required for scholarship and financial-aid consideration.',
       'The admissions office schedules an interview after receiving a completed application.',
-      'The school’s current page lists November 6, 2026 for the HSPT but calls the cycle 2026–27. Because those labels conflict, verify the class-of-2031 date before registering.',
+      'The school’s current page lists November 6, 2026 for the HSPT and calls the cycle 2026–27. The Archdiocese’s official testing program uses the same “2026–2027” label for its November 6, 2026 test for current eighth graders, with registration closing October 23. Still confirm Hudson Catholic’s Class of 2031 deadlines with admissions.',
     ],
     academics: [
       'The most recently published course list combines traditional college-preparatory subjects with honors, AP, and dual-credit courses.',
@@ -617,7 +626,7 @@ export const schools: School[] = [
       { label: 'School model', value: 'Coed · grades 9–12' },
       { label: 'Defining strength', value: 'Catholic + applied breadth' },
     ],
-    sourceIds: ['hudson-catholic-apply', 'hudson-catholic-tuition', 'hudson-catholic-courses'],
+    sourceIds: ['hudson-catholic-apply', 'hudson-catholic-tuition', 'hudson-catholic-courses', 'coop-hspt'],
   },
   {
     slug: 'saint-peters-prep',
@@ -636,7 +645,7 @@ export const schools: School[] = [
     admissionsStatus: 'Confirmed for the Class of 2031: applications opened September 1, 2026; HSPT is November 6; complete by December 11 for a January decision and timely aid review.',
     admissions: [
       'The Class of 2031 application and Freshman for a Day calendar opened September 1, 2026; visits begin September 21 and the fall open house is October 18.',
-      'The HSPT is November 6, with a November 14 makeup date. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
+      'The HSPT is November 6, with a November 14 makeup date at other test sites (Prep is not a makeup site). Archdiocesan HSPT registration closes October 23. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
       'A complete application by December 11 includes the online form, test, official transcript, teacher recommendation, and essay.',
       'December 11 is also the financial-aid deadline for a decision with the admission letter. Decisions are mailed January 14 and emailed January 15, 2027.',
     ],
@@ -652,7 +661,7 @@ export const schools: School[] = [
       { label: 'School model', value: 'Boys · grades 9–12' },
       { label: 'Defining strength', value: 'Jesuit breadth + community' },
     ],
-    sourceIds: ['spprep-dates', 'spprep-tuition', 'spprep-academics'],
+    sourceIds: ['spprep-dates', 'spprep-tuition', 'spprep-academics', 'coop-hspt'],
   },
 ];
 
@@ -777,17 +786,25 @@ export const timeline: TimelineItem[] = [
     sourceId: 'hcst-admissions',
   },
   {
+    date: 'Friday, October 23',
+    title: 'Last day to register for the Catholic high-school HSPT',
+    body: 'Register at njcoopexam.org for the November 6 archdiocesan HSPT. Students at participating Catholic elementary schools follow their school’s process, which must be finished by October 9. Requests for extended testing time are due October 20.',
+    schools: ['Saint Peter’s Prep', 'Hudson Catholic', 'Saint Dominic'],
+    status: 'Confirmed',
+    sourceId: 'coop-hspt',
+  },
+  {
     date: 'Friday, November 6',
     title: 'Catholic high-school HSPT date',
-    body: 'Saint Peter’s Prep confirms the November 6 HSPT. Hudson Catholic lists the same date but with an inconsistent cycle label, so confirm its Class of 2031 instructions directly before registering.',
+    body: 'The Archdiocese of Newark’s official testing program confirms the November 6 HSPT for current eighth graders, with a November 14 makeup at select sites. Saint Peter’s Prep confirms the same date. Hudson Catholic lists it under the same “2026–27” label the Archdiocese uses; confirm its Class of 2031 instructions directly.',
     schools: ['Saint Peter’s Prep', 'Hudson Catholic'],
     status: 'Confirmed',
-    sourceId: 'spprep-dates',
+    sourceId: 'coop-hspt',
   },
   {
     date: 'Fall · exact date pending',
     title: 'Complete Saint Dominic testing and application steps',
-    body: 'The latest school guidance used the COOP/HSPT for eighth-grade applicants. Confirm the class-of-2031 test date and document deadlines directly with admissions.',
+    body: 'Saint Dominic’s latest guidance used the COOP/HSPT for eighth-grade applicants, and this fall’s archdiocesan COOP/HSPT is November 6. Its own page still describes the prior cycle, so confirm the class-of-2031 test and document deadlines directly with admissions.',
     schools: ['Saint Dominic'],
     status: 'Action',
     sourceId: 'sda-apply',
