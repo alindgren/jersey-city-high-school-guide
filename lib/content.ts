@@ -240,8 +240,16 @@ export const sources: Source[] = [
     title: '2027–28 application and lottery',
     publisher: 'BelovED Community Charter School',
     url: 'https://www.belovedccs.org/apply/apply_to_enroll_your_child',
-    reviewed: VERIFIED_DATE,
+    reviewed: 'September 25, 2026',
     note: 'Confirmed October 15 application opening, January 15 deadline, annual lottery, and wait-list policy.',
+  },
+  {
+    id: 'beloved-visit',
+    title: 'Open houses',
+    publisher: 'BelovED Community Charter School',
+    url: 'https://www.belovedccs.org/apply/visit',
+    reviewed: 'September 25, 2026',
+    note: 'Published 2026–27 open-house schedule by grade band, including the January 28, 2027 grades 9–12 open house; no appointment required.',
   },
   {
     id: 'beloved-curriculum',
@@ -540,6 +548,7 @@ export const schools: School[] = [
     admissions: [
       'BelovED’s 2027–28 application window is confirmed for October 15, 2026 through January 15, 2027.',
       'Admission is through an annual January lottery; applications submitted after January 15 move to the wait list in application order.',
+      'The grades 9–12 open house is Thursday, January 28, 2027 at 5:30 p.m., with no appointment needed. It falls after the January 15 lottery deadline, so send questions to the registrar before then rather than waiting for the open house.',
       'The school reports that it admits a smaller number of students in grades beyond kindergarten, so families should ask specifically about ninth-grade openings.',
       'Wait lists expire at the end of the school year, meaning families must reapply for a later year if no seat becomes available.',
     ],
@@ -555,7 +564,7 @@ export const schools: School[] = [
       { label: 'School model', value: 'Charter · grades K–12' },
       { label: 'Defining strength', value: 'Structured continuity' },
     ],
-    sourceIds: ['beloved-apply', 'beloved-curriculum', 'nj-performance'],
+    sourceIds: ['beloved-apply', 'beloved-visit', 'beloved-curriculum', 'nj-performance'],
   },
   {
     slug: 'saint-dominic-academy',
@@ -764,7 +773,7 @@ export const timeline: TimelineItem[] = [
   {
     date: 'October 15, 2026',
     title: 'BelovED’s 2027–28 application opens',
-    body: 'Apply by January 15, 2027 to enter the annual lottery. Ask admissions how many ninth-grade seats are expected for students entering from outside BelovED.',
+    body: 'Apply by January 15, 2027 to enter the annual lottery. The grades 9–12 open house is not until January 28, so ask admissions early how many ninth-grade seats are expected for students entering from outside BelovED.',
     schools: ['BelovED Charter'],
     status: 'Confirmed',
     sourceId: 'beloved-apply',
@@ -848,6 +857,14 @@ export const timeline: TimelineItem[] = [
     schools: ['Saint Peter’s Prep'],
     status: 'Confirmed',
     sourceId: 'spprep-dates',
+  },
+  {
+    date: 'Thursday, January 28, 2027 · 5:30 p.m.',
+    title: 'BelovED grades 9–12 open house',
+    body: 'No appointment is needed. This open house comes after the January 15 lottery deadline, so do not wait for it to apply if you want a place in the lottery.',
+    schools: ['BelovED Charter'],
+    status: 'Confirmed',
+    sourceId: 'beloved-visit',
   },
   {
     date: 'Late January–February · planning estimate',
