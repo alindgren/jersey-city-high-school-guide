@@ -136,8 +136,8 @@ export const sources: Source[] = [
     title: 'Saint Dominic Academy overview',
     publisher: 'Saint Dominic Academy',
     url: 'https://saintdoms.org/',
-    reviewed: VERIFIED_DATE,
-    note: 'Current school profile, programs, and September 27, 2026 open house.',
+    reviewed: 'October 2, 2026',
+    note: 'Current school profile and programs; the September 27, 2026 fall open house (now past) and links to schedule tours and DOMS for a Day student visits.',
   },
   {
     id: 'sda-apply',
@@ -580,11 +580,11 @@ export const schools: School[] = [
     summary: 'A small, values-centered all-girls environment with college preparation, close faculty relationships, leadership opportunities, and a medical pathway.',
     bestFor: 'Students who want a small all-girls community, Catholic education, and substantial personal attention—with MEDQUEST as a notable health-care option.',
     tradeoff: 'Tuition, Catholic formation, and the smaller course-and-activity scale are major fit questions, not footnotes.',
-    admissionsStatus: 'Applications are available through the school. The fall open house is confirmed for Sunday, September 27, 2026, 11:00 a.m.–1:00 p.m.; full class-of-2031 deadlines are not yet posted.',
+    admissionsStatus: 'Applications are available through the school. The September 27, 2026 fall open house has passed and no later open house is posted; families can schedule a tour or a DOMS for a Day student visit. Full class-of-2031 deadlines are not yet posted.',
     admissions: [
       'The school’s current application page calls for an application account, transcript, recommendation letter, and an entrance/placement exam for eighth-grade applicants in its latest published cycle.',
       'The detailed school profile describes admission based on the formal application, recommendations, prior school records and standardized scores, including HSPT for high school.',
-      'Attend the September 27 open house or schedule a tour to test the all-girls, small-school, and faith-centered fit.',
+      'The September 27 open house has passed. Schedule a campus tour or a DOMS for a Day student visit through the school’s enrollment portal to test the all-girls, small-school, and faith-centered fit.',
       'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026, and registration closes October 23. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
       'Ask admissions to confirm the class-of-2031 testing, scholarship, financial-aid, and response deadlines before acting.',
     ],
@@ -773,7 +773,7 @@ export const timeline: TimelineItem[] = [
   {
     date: 'October 15, 2026',
     title: 'BelovED’s 2027–28 application opens',
-    body: 'Apply by January 15, 2027 to enter the annual lottery. The grades 9–12 open house is not until January 28, so ask admissions early how many ninth-grade seats are expected for students entering from outside BelovED.',
+    body: 'Apply by January 15, 2027 to enter the annual lottery. Ask admissions how many ninth-grade seats are expected for students entering from outside BelovED.',
     schools: ['BelovED Charter'],
     status: 'Confirmed',
     sourceId: 'beloved-apply',
