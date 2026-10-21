@@ -272,8 +272,8 @@ export const sources: Source[] = [
     title: 'Open houses',
     publisher: 'BelovED Community Charter School',
     url: 'https://www.belovedccs.org/apply/visit',
-    reviewed: 'October 9, 2026',
-    note: 'Published 2026–27 open-house schedule by grade band, including the October 22, 2026 virtual and January 28, 2027 in-person grades 9–12 open houses; no appointment required.',
+    reviewed: 'October 21, 2026',
+    note: 'Published 2026–27 open-house schedule by grade band, including the October 22, 2026 virtual (Zoom link posted on the page) and January 28, 2027 in-person grades 9–12 open houses; no appointment required.',
   },
   {
     id: 'beloved-curriculum',
@@ -574,7 +574,7 @@ export const schools: School[] = [
     admissions: [
       'BelovED’s 2027–28 application window is confirmed for October 15, 2026 through January 15, 2027.',
       'Admission is through an annual January lottery; applications submitted after January 15 move to the wait list in application order.',
-      'BelovED lists two grades 9–12 open houses: a virtual session on Thursday, October 22, 2026 at 5:00 p.m., and an in-person session on Thursday, January 28, 2027 at 5:30 p.m. No appointment is needed. The school sends the virtual link to applicants the day before, and anyone can request it from the registrar. The January 28 session falls after the January 15 lottery deadline.',
+      'BelovED lists two grades 9–12 open houses: a virtual session on Thursday, October 22, 2026 at 5:00 p.m., and an in-person session on Thursday, January 28, 2027 at 5:30 p.m. No appointment is needed, and the school’s visit page posts the Zoom link for the virtual session. The January 28 session falls after the January 15 lottery deadline.',
       'The school reports that it admits a smaller number of students in grades beyond kindergarten, so families should ask specifically about ninth-grade openings.',
       'Wait lists expire at the end of the school year, meaning families must reapply for a later year if no seat becomes available.',
     ],
@@ -825,7 +825,7 @@ export const timeline: TimelineItem[] = [
   {
     date: 'Thursday, October 22 · 5:00 p.m.',
     title: 'BelovED grades 9–12 virtual open house',
-    body: 'BelovED emails the link to applicants the day before; other families can request it from the registrar. This is the only grades 9–12 open house before the January 15 lottery deadline.',
+    body: 'Join through the Zoom link posted on BelovED’s visit page; no appointment is needed. This is the only grades 9–12 open house before the January 15 lottery deadline.',
     schools: ['BelovED Charter'],
     status: 'Confirmed',
     sourceId: 'beloved-visit',
