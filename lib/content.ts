@@ -216,7 +216,7 @@ export const sources: Source[] = [
     title: '2026–2027 Cooperative Admissions HSPT important dates',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/docs/115-2026-IMPORTANT-DATES.pdf',
-    reviewed: 'October 26, 2026',
+    reviewed: 'October 28, 2026',
     note: 'Official November 6, 2026 HSPT date, November 14 makeup, and the originally published October registration deadlines for current eighth graders applying to participating Catholic high schools. The online registration deadline was later extended; see the COOP homepage.',
   },
   {
@@ -224,8 +224,8 @@ export const sources: Source[] = [
     title: 'COOP/HSPT registration homepage',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/',
-    reviewed: 'October 26, 2026',
-    note: 'Notice extending online registration for the November 6, 2026 HSPT to midnight on Sunday, October 25, plus the test and makeup dates, the Important Dates sheet, and the online registration link.',
+    reviewed: 'October 28, 2026',
+    note: 'Notice extending online registration for the November 6, 2026 HSPT to midnight on Tuesday, October 27, plus the test and makeup dates, the Important Dates sheet, and the online registration link.',
   },
   {
     id: 'spprep-tuition',
@@ -618,10 +618,10 @@ export const schools: School[] = [
     admissions: [
       'The school’s current application page calls for an application account, transcript, recommendation letter, and an entrance/placement exam for eighth-grade applicants in its latest published cycle.',
       'The detailed school profile describes admission based on the formal application, recommendations, prior school records and standardized scores, including HSPT for high school.',
-      'The school’s next admissions event is “Blueprint: Your Academic Advantage” on Tuesday, October 27, 2026, 4:30–6:30 p.m. on campus. Families meet admissions, hear about academics, leadership, and the Pre-Med Pathway, and tour the school. Registration is through the school’s enrollment portal, which also offers campus tours and DOMS for a Day student visits to test the all-girls, small-school, and faith-centered fit.',
+      'The school’s second fall admissions event, “Blueprint: Your Academic Advantage,” was scheduled for Tuesday, October 27, 2026, 4:30–6:30 p.m. on campus. Families could meet admissions, hear about academics, leadership, and the Pre-Med Pathway, and tour the school. The school’s enrollment portal offers campus tours and DOMS for a Day student visits to test the all-girls, small-school, and faith-centered fit.',
       'The portal also offers Coffee Talk and Tour visits, with slots starting October 21, 2026. The school says applicants who complete an application and bring their last two years of transcripts can get an instant admission decision during the visit.',
       'Saint Dominic’s admissions page lists a priority application deadline of Tuesday, December 15, 2026 for the 2027–28 school year.',
-      'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026. Online registration was extended from October 23 to midnight on Sunday, October 25. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
+      'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026. Online registration, originally due October 23, was extended to midnight on Tuesday, October 27. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
       'Ask admissions what the December 15 priority deadline means for scholarship and aid consideration, and confirm the class-of-2031 testing and response deadlines before acting.',
     ],
     academics: [
@@ -652,12 +652,12 @@ export const schools: School[] = [
     summary: 'A coeducational Catholic high school with college preparation, faith formation, athletics, arts, and an applied course menu that includes health, law, coding, and business.',
     bestFor: 'Students who want a coed Catholic community, a broad mix of academics and activities, and a Jersey City campus with a lower published tuition than the other private options in this guide.',
     tradeoff: 'Tuition and required fees remain substantial, and families should confirm Hudson Catholic’s Class of 2031 test and application deadlines directly with admissions.',
-    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT labeled 2026–27, the same label the Archdiocese uses for this fall’s test. Online HSPT registration was extended from October 23 to midnight on Sunday, October 25; confirm every class-of-2031 deadline with admissions.',
+    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT labeled 2026–27, the same label the Archdiocese uses for this fall’s test. Online HSPT registration, originally due October 23, was extended to midnight on Tuesday, October 27; confirm every class-of-2031 deadline with admissions.',
     admissions: [
       'Applicants complete the school application and submit sixth-, seventh-, and current eighth-grade report cards plus two teacher recommendations.',
       'Hudson Catholic requires incoming freshmen to take the Archdiocese of Newark HSPT and says the test is also required for scholarship and financial-aid consideration.',
       'The admissions office schedules an interview after receiving a completed application.',
-      'The school’s current page lists November 6, 2026 for the HSPT and calls the cycle 2026–27. The Archdiocese’s official testing program uses the same “2026–2027” label for its November 6, 2026 test for current eighth graders, with online registration extended from October 23 to midnight on Sunday, October 25. Still confirm Hudson Catholic’s Class of 2031 deadlines with admissions.',
+      'The school’s current page lists November 6, 2026 for the HSPT and calls the cycle 2026–27. The Archdiocese’s official testing program uses the same “2026–2027” label for its November 6, 2026 test for current eighth graders, with online registration, originally due October 23, extended to midnight on Tuesday, October 27. Still confirm Hudson Catholic’s Class of 2031 deadlines with admissions.',
     ],
     academics: [
       'The most recently published course list combines traditional college-preparatory subjects with honors, AP, and dual-credit courses.',
@@ -690,7 +690,7 @@ export const schools: School[] = [
     admissionsStatus: 'Confirmed for the Class of 2031: applications opened September 1, 2026; HSPT is November 6; complete by December 11 for a January decision and timely aid review.',
     admissions: [
       'The Class of 2031 application and Freshman for a Day calendar opened September 1, 2026; visits begin September 21 and the fall open house is October 18.',
-      'The HSPT is November 6, with a November 14 makeup date at other test sites (Prep is not a makeup site). Archdiocesan online HSPT registration was extended from October 23 to midnight on Sunday, October 25. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
+      'The HSPT is November 6, with a November 14 makeup date at other test sites (Prep is not a makeup site). Archdiocesan online HSPT registration, originally due October 23, was extended to midnight on Tuesday, October 27. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
       'A complete application by December 11 includes the online form, test, official transcript, teacher recommendation, and essay.',
       'December 11 is also the financial-aid deadline for a decision with the admission letter. Decisions are mailed January 14 and emailed January 15, 2027.',
     ],
@@ -839,9 +839,9 @@ export const timeline: TimelineItem[] = [
     sourceId: 'beloved-visit',
   },
   {
-    date: 'Sunday, October 25 · extended from October 23',
+    date: 'Tuesday, October 27 · extended from October 23',
     title: 'Last day to register online for the Catholic high-school HSPT',
-    body: 'The COOP program extended online registration at njcoopexam.org for the November 6 archdiocesan HSPT from October 23 to midnight on Sunday, October 25. The Important Dates sheet linked from the same page set October 9 as the deadline for students at participating Catholic elementary schools, who register through their school, and October 20 for extended-testing-time requests.',
+    body: 'The COOP program extended online registration at njcoopexam.org for the November 6 archdiocesan HSPT from October 23 to midnight on Tuesday, October 27. The Important Dates sheet linked from the same page set October 9 as the deadline for students at participating Catholic elementary schools, who register through their school, and October 20 for extended-testing-time requests.',
     schools: ['Saint Peter’s Prep', 'Hudson Catholic', 'Saint Dominic'],
     status: 'Confirmed',
     sourceId: 'coop-registration',
