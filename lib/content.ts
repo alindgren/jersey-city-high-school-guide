@@ -216,7 +216,7 @@ export const sources: Source[] = [
     title: '2026–2027 Cooperative Admissions HSPT important dates',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/docs/115-2026-IMPORTANT-DATES.pdf',
-    reviewed: 'October 30, 2026',
+    reviewed: 'November 2, 2026',
     note: 'Official November 6, 2026 HSPT date, November 1–5 test admission letters, November 14 makeup, and the originally published October registration deadlines for current eighth graders applying to participating Catholic high schools. The online registration deadline was later extended; see the COOP homepage.',
   },
   {
@@ -224,15 +224,15 @@ export const sources: Source[] = [
     title: 'COOP/HSPT registration homepage',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/',
-    reviewed: 'October 30, 2026',
-    note: 'Test and makeup dates, the online registration link, and the Important Dates sheet. The notice extending online registration to midnight on Tuesday, October 27 has been replaced by a banner saying online registration is open, with no closing date. The page also links the walk-in instructions, walk-in test sites, and walk-in application form.',
+    reviewed: 'November 2, 2026',
+    note: 'Test and makeup dates and the Important Dates sheet. The homepage now says online registration is closed and that test admission letters were emailed to registered students on November 1. Registered families who did not receive a letter by November 2, or lost it, can download one from the homepage using the COOP student ID and three-letter TAL code on the registration receipt. Students who are not registered are directed to the walk-in instructions, walk-in test sites, and walk-in application form.',
   },
   {
     id: 'coop-walkin',
     title: 'Walk-in students: November 6, 2026 HSPT and November 14 makeup',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/docs/124-2026-WALKIN-DIRECTIONS.pdf',
-    reviewed: 'October 30, 2026',
+    reviewed: 'November 2, 2026',
     note: 'Posted October 28, 2026. How unregistered eighth graders can take the HSPT as walk-ins: call the test site ahead, complete the walk-in application, and pay $95 (or $105 at the November 14 makeup) by cash, bank check, or money order. Walk-ins cannot receive extended time.',
   },
   {
@@ -240,7 +240,7 @@ export const sources: Source[] = [
     title: 'Walk-in test sites, November 6, 2026',
     publisher: 'Archdiocese of Newark / Diocese of Paterson COOP program',
     url: 'https://www.njcoopexam.org/docs/125-2026-COMBINED-WALKIN-TEST-SITES.pdf',
-    reviewed: 'October 30, 2026',
+    reviewed: 'November 2, 2026',
     note: 'Posted October 28, 2026. Lists the high schools accepting walk-in students, including Hudson Catholic (coed), Saint Peter’s Prep (boys), and Saint Dominic Academy (girls) in Jersey City.',
   },
   {
@@ -637,7 +637,7 @@ export const schools: School[] = [
       'The school’s second fall admissions event, “Blueprint: Your Academic Advantage,” was scheduled for Tuesday, October 27, 2026, 4:30–6:30 p.m. on campus. Families could meet admissions, hear about academics, leadership, and the Pre-Med Pathway, and tour the school. The school’s enrollment portal offers campus tours and DOMS for a Day student visits to test the all-girls, small-school, and faith-centered fit.',
       'The portal also offers Coffee Talk and Tour visits, with slots starting October 21, 2026. The school says applicants who complete an application and bring their last two years of transcripts can get an instant admission decision during the visit.',
       'Saint Dominic’s admissions page lists a priority application deadline of Tuesday, December 15, 2026 for the 2027–28 school year.',
-      'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026. Online registration, originally due October 23, was extended to October 27; as of October 30, COOP’s homepage says online registration is open, with no closing date posted. Unregistered girls can also test as walk-ins, and Saint Dominic is a walk-in test site. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
+      'The archdiocesan COOP/HSPT for current eighth graders is Friday, November 6, 2026. Online registration, originally due October 23 and later extended, is now closed, according to COOP’s homepage as of November 2. Girls who are not registered can still test as walk-ins, and Saint Dominic is a walk-in test site. Saint Dominic’s own page still describes the prior cycle, so confirm with admissions that this is its class-of-2031 test.',
       'Ask admissions what the December 15 priority deadline means for scholarship and aid consideration, and confirm the class-of-2031 testing and response deadlines before acting.',
     ],
     academics: [
@@ -668,12 +668,12 @@ export const schools: School[] = [
     summary: 'A coeducational Catholic high school with college preparation, faith formation, athletics, arts, and an applied course menu that includes health, law, coding, and business.',
     bestFor: 'Students who want a coed Catholic community, a broad mix of academics and activities, and a Jersey City campus with a lower published tuition than the other private options in this guide.',
     tradeoff: 'Tuition and required fees remain substantial, and families should confirm Hudson Catholic’s Class of 2031 test and application deadlines directly with admissions.',
-    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT labeled 2026–27, the same label the Archdiocese uses for this fall’s test. Online HSPT registration, originally due October 23, was extended to October 27, and COOP’s homepage now says registration is open. Unregistered students can also test as walk-ins on November 6, and Hudson Catholic is a walk-in site. Confirm every class-of-2031 deadline with admissions.',
+    admissionsStatus: 'Applications are available. The current page lists a November 6, 2026 HSPT labeled 2026–27, the same label the Archdiocese uses for this fall’s test. Online HSPT registration, originally due October 23 and later extended, is now closed. Students who are not registered can still test as walk-ins on November 6, and Hudson Catholic is a walk-in site. Confirm every class-of-2031 deadline with admissions.',
     admissions: [
       'Applicants complete the school application and submit sixth-, seventh-, and current eighth-grade report cards plus two teacher recommendations.',
       'Hudson Catholic requires incoming freshmen to take the Archdiocese of Newark HSPT and says the test is also required for scholarship and financial-aid consideration.',
       'The admissions office schedules an interview after receiving a completed application.',
-      'The school’s current page lists November 6, 2026 for the HSPT and calls the cycle 2026–27. The Archdiocese’s official testing program uses the same “2026–2027” label for its November 6, 2026 test for current eighth graders, with online registration, originally due October 23, extended to October 27. As of October 30, COOP’s homepage says online registration is open, with no closing date posted. Still confirm Hudson Catholic’s Class of 2031 deadlines with admissions.',
+      'The school’s current page lists November 6, 2026 for the HSPT and calls the cycle 2026–27. The Archdiocese’s official testing program uses the same “2026–2027” label for its November 6, 2026 test for current eighth graders, and online registration, originally due October 23 and later extended, is now closed, according to COOP’s homepage as of November 2. Still confirm Hudson Catholic’s Class of 2031 deadlines with admissions.',
       'COOP’s walk-in instructions let unregistered eighth graders take the test at a walk-in site for $95 (cash, bank check, or money order; no extended time). Hudson Catholic is a coed walk-in site on November 6.',
     ],
     academics: [
@@ -707,7 +707,7 @@ export const schools: School[] = [
     admissionsStatus: 'Confirmed for the Class of 2031: applications opened September 1, 2026; HSPT is November 6; complete by December 11 for a January decision and timely aid review.',
     admissions: [
       'The Class of 2031 application and Freshman for a Day calendar opened September 1, 2026; visits begin September 21 and the fall open house is October 18.',
-      'The HSPT is November 6, with a November 14 makeup date at other test sites (Prep is not a makeup site). Archdiocesan online HSPT registration, originally due October 23, was extended to October 27, and COOP’s homepage now says registration is open. Unregistered students can also test as walk-ins, and Prep is a walk-in site for boys on November 6. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
+      'The HSPT is November 6, with a November 14 makeup date at other test sites (Prep is not a makeup site). Archdiocesan online HSPT registration, originally due October 23 and later extended, is now closed, according to COOP’s homepage as of November 2. Students who are not registered can still test as walk-ins, and Prep is a walk-in site for boys on November 6. Prep also accepts the SSAT, ISEE, TACHS, or an equivalent test.',
       'A complete application by December 11 includes the online form, test, official transcript, teacher recommendation, and essay.',
       'December 11 is also the financial-aid deadline for a decision with the admission letter. Decisions are mailed January 14 and emailed January 15, 2027.',
     ],
@@ -856,9 +856,9 @@ export const timeline: TimelineItem[] = [
     sourceId: 'beloved-visit',
   },
   {
-    date: 'Extended past October 23 · open as of October 30',
-    title: 'Online registration for the Catholic high-school HSPT',
-    body: 'The COOP program extended online registration at njcoopexam.org for the November 6 archdiocesan HSPT from October 23 to midnight on Tuesday, October 27. As of October 30, its homepage instead says online registration is open and posts no closing date. If your child is not registered, register now or call the COOP help desk at 888-921-2667; walk-in testing is the fallback. The Important Dates sheet set October 9 as the deadline for students at participating Catholic elementary schools, who register through their school, and October 20 for extended-testing-time requests.',
+    date: 'Originally October 23 · now closed',
+    title: 'Online registration for the Catholic high-school HSPT has closed',
+    body: 'Online registration at njcoopexam.org for the November 6 archdiocesan HSPT, originally due October 23 and later extended, is now closed, according to COOP’s homepage as of November 2. Test admission letters were emailed to registered students on November 1. If yours did not arrive by November 2 or was lost, use the “Get Admission Letter” button on the COOP homepage with the student ID and three-letter TAL code from your registration receipt, or call the COOP help desk at 888-921-2667. Students who are not registered can still test as walk-ins.',
     schools: ['Saint Peter’s Prep', 'Hudson Catholic', 'Saint Dominic'],
     status: 'Confirmed',
     sourceId: 'coop-registration',
